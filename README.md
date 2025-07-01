@@ -2,7 +2,7 @@
 
 Una plataforma de subastas en tiempo real desarrollada con React, TypeScript y Node.js. Incluye sistema de pujas en vivo, chat global, panel de administración y soporte multiidioma.
 
-## ✨ Características
+##  Características
 
 - **Subastas en Tiempo Real**: Sistema de pujas con actualizaciones automáticas vía Server-Sent Events (SSE)
 - **Chat Global**: Sistema de mensajería accesible desde cualquier página
@@ -11,7 +11,7 @@ Una plataforma de subastas en tiempo real desarrollada con React, TypeScript y N
 - **Interfaz Responsiva**: Diseño adaptativo para desktop y móvil
 - **Autenticación**: Sistema de login con roles de usuario y administrador
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 ### Frontend
 - **React 18** con TypeScript
@@ -27,12 +27,12 @@ Una plataforma de subastas en tiempo real desarrollada con React, TypeScript y N
 - **JSON Server** para API REST mock
 - **CORS** habilitado para desarrollo
 
-## � Prerrequisitos
+##  Prerrequisitos
 
 - Node.js 18.0 o superior
 - npm o yarn
 
-## 🚀 Instalación
+##  Instalación
 
 1. **Clonar el repositorio**
 ```bash
@@ -69,7 +69,7 @@ npm run dev
 - API REST: http://localhost:3001
 - Servidor SSE: http://localhost:3002
 
-## � Guía de Uso
+##  Guía de Uso
 
 ### Para Usuarios Regulares
 
@@ -86,14 +86,14 @@ npm run dev
 3. **Gestionar Usuarios**: Administrar cuentas y asignar roles
 4. **Configurar Fechas**: Establecer horarios de inicio flexibles (pasado, presente o futuro)
 
-## � Scripts Disponibles
+##  Scripts Disponibles
 
 ```bash
 npm run dev          # Inicia el servidor de desarrollo
 npm run build        # Construye la aplicación para producción
 ```
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 ### Productos
 - `GET /products` - Obtener todas las subastas
