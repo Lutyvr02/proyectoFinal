@@ -1,0 +1,347 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "title": "Antique Vase",
+      "description": "Beautiful ceramic vase with hand-painted flowers. 19th century piece.",
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400",
+      "basePrice": 80,
+      "duration": 900,
+      "startTime": "2025-07-01T20:00:00Z",
+      "currentBid": 100,
+      "currentBidder": "user1",
+      "status": "finished"
+    },
+    {
+      "id": "3",
+      "title": "Rare Book Collection",
+      "description": "First edition books from famous authors. Complete set of 5 books.",
+      "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400",
+      "basePrice": 200,
+      "duration": 900,
+      "startTime": "2025-06-30T12:00:00Z",
+      "currentBid": 350,
+      "currentBidder": "user3",
+      "status": "finished"
+    },
+    {
+      "id": "4",
+      "title": "Vintage Camera",
+      "description": "Professional camera from the 1960s. Fully functional with original case.",
+      "image": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=400",
+      "basePrice": 150,
+      "duration": 1200,
+      "startTime": "2025-07-01T21:00:00Z",
+      "currentBid": 165,
+      "currentBidder": "admin",
+      "status": "finished"
+    },
+    {
+      "id": "5",
+      "title": "watch",
+      "description": "just a watch",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+      "basePrice": 100,
+      "duration": 100,
+      "status": "finished",
+      "startTime": "2025-07-01T20:56:00.000Z",
+      "currentBid": 100,
+      "currentBidder": null
+    },
+    {
+      "id": "6",
+      "title": "Pastel",
+      "description": "Pastel de chocolate",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+      "basePrice": 120,
+      "duration": 30,
+      "status": "finished",
+      "startTime": "2025-07-01T21:21:00.000Z",
+      "currentBid": 120,
+      "currentBidder": null
+    },
+    {
+      "id": "7",
+      "title": "chocolate",
+      "description": "chocolate de 1966",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+      "basePrice": 120,
+      "duration": 40,
+      "status": "finished",
+      "startTime": "2025-07-01T21:28:00.000Z",
+      "currentBid": 122,
+      "currentBidder": "user1"
+    },
+    {
+      "id": 8,
+      "title": "chocolate",
+      "description": "chocolate chocolate",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+      "basePrice": 120,
+      "duration": 100,
+      "status": "finished",
+      "startTime": "2025-07-01T21:30:00.000Z",
+      "currentBid": 122,
+      "currentBidder": "user1"
+    },
+    {
+      "id": 9,
+      "title": "chocolate",
+      "description": "chocolate chocolate",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+      "basePrice": 100,
+      "duration": 40,
+      "status": "finished",
+      "startTime": "2025-07-01T21:34:00.000Z",
+      "currentBid": 100,
+      "currentBidder": null
+    },
+    {
+      "id": 10,
+      "title": "chocolate",
+      "description": "chocolatechocolate",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+      "basePrice": 30,
+      "duration": 100,
+      "status": "finished",
+      "startTime": "2025-07-01T21:35:00.000Z",
+      "currentBid": 36,
+      "currentBidder": "user1"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "username": "admin",
+      "role": "admin",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "role": "user",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b829?w=100"
+    },
+    {
+      "id": "3",
+      "username": "user2",
+      "role": "user",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100"
+    },
+    {
+      "id": "4",
+      "username": "user3",
+      "role": "user",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100"
+    }
+  ],
+  "bids": [
+    {
+      "id": "1",
+      "productId": 1,
+      "username": "user1",
+      "amount": 120,
+      "timestamp": "2025-07-01T14:05:00Z"
+    },
+    {
+      "id": "2",
+      "productId": 2,
+      "username": "user2",
+      "amount": 95,
+      "timestamp": "2025-07-01T15:02:00Z"
+    },
+    {
+      "id": "3",
+      "productId": 3,
+      "username": "user3",
+      "amount": 350,
+      "timestamp": "2025-06-30T12:45:00Z"
+    },
+    {
+      "id": "1751399817064",
+      "productId": 1,
+      "username": "user1",
+      "amount": 121,
+      "timestamp": "2025-07-01T19:56:57.064Z"
+    },
+    {
+      "id": "1751399822473",
+      "productId": 1,
+      "username": "user1",
+      "amount": 121,
+      "timestamp": "2025-07-01T19:57:02.473Z"
+    },
+    {
+      "id": "1751399867832",
+      "productId": 1,
+      "username": "user1",
+      "amount": 125,
+      "timestamp": "2025-07-01T19:57:47.832Z"
+    },
+    {
+      "id": "1751399929379",
+      "productId": 1,
+      "username": "user1",
+      "amount": 121,
+      "timestamp": "2025-07-01T19:58:49.379Z"
+    },
+    {
+      "id": "1751399988153",
+      "productId": 2,
+      "username": "user1",
+      "amount": 100,
+      "timestamp": "2025-07-01T19:59:48.153Z"
+    },
+    {
+      "id": "1751399991008",
+      "productId": 2,
+      "username": "user1",
+      "amount": 96,
+      "timestamp": "2025-07-01T19:59:51.008Z"
+    },
+    {
+      "id": "1751399991858",
+      "productId": 2,
+      "username": "user1",
+      "amount": 96,
+      "timestamp": "2025-07-01T19:59:51.858Z"
+    },
+    {
+      "id": "1751400032028",
+      "productId": 2,
+      "username": "user1",
+      "amount": 100,
+      "timestamp": "2025-07-01T20:00:32.028Z"
+    },
+    {
+      "id": "1751404419358",
+      "productId": 4,
+      "username": "user1",
+      "amount": 160,
+      "timestamp": "2025-07-01T21:13:39.358Z"
+    },
+    {
+      "id": "1751404707579",
+      "productId": 4,
+      "username": "admin",
+      "amount": 165,
+      "timestamp": "2025-07-01T21:18:27.579Z"
+    },
+    {
+      "id": "1751405293652",
+      "productId": 7,
+      "username": "user1",
+      "amount": 122,
+      "timestamp": "2025-07-01T21:28:13.652Z"
+    },
+    {
+      "id": 1751405482170,
+      "productId": 8,
+      "username": "user1",
+      "amount": 122,
+      "timestamp": "2025-07-01T21:31:22.170Z"
+    },
+    {
+      "id": 1751405745613,
+      "productId": 10,
+      "username": "user1",
+      "amount": 35,
+      "timestamp": "2025-07-01T21:35:45.613Z"
+    },
+    {
+      "id": 1751405759417,
+      "productId": 10,
+      "username": "user1",
+      "amount": 36,
+      "timestamp": "2025-07-01T21:35:59.417Z"
+    }
+  ],
+  "chat": [
+    {
+      "id": "1",
+      "productId": 1,
+      "username": "user1",
+      "message": "Great watch! I'm interested.",
+      "timestamp": "2025-07-01T14:01:00Z"
+    },
+    {
+      "id": "2",
+      "productId": 1,
+      "username": "user2",
+      "message": "The condition looks amazing!",
+      "timestamp": "2025-07-01T14:03:00Z"
+    },
+    {
+      "id": "1751399130128",
+      "productId": 2,
+      "username": "user1",
+      "message": "hi",
+      "timestamp": "2025-07-01T19:45:30.128Z"
+    },
+    {
+      "id": "1751399136739",
+      "productId": 2,
+      "username": "user1",
+      "message": "hi",
+      "timestamp": "2025-07-01T19:45:36.739Z"
+    },
+    {
+      "id": "1751399165589",
+      "productId": 2,
+      "username": "user1",
+      "message": "hello",
+      "timestamp": "2025-07-01T19:46:05.589Z"
+    },
+    {
+      "id": "1751399403644",
+      "productId": 4,
+      "username": "admin",
+      "message": "hello",
+      "timestamp": "2025-07-01T19:50:03.644Z"
+    },
+    {
+      "id": "1751399828797",
+      "productId": 1,
+      "username": "user1",
+      "message": "hi",
+      "timestamp": "2025-07-01T19:57:08.797Z"
+    },
+    {
+      "id": "1751399933853",
+      "productId": 1,
+      "username": "user1",
+      "message": "hi",
+      "timestamp": "2025-07-01T19:58:53.853Z"
+    },
+    {
+      "id": "1751403449437",
+      "username": "admin",
+      "message": "hello",
+      "timestamp": "2025-07-01T20:57:29.438Z"
+    },
+    {
+      "id": "1751403456142",
+      "username": "admin",
+      "message": "hi",
+      "timestamp": "2025-07-01T20:57:36.142Z"
+    },
+    {
+      "id": "1751403472984",
+      "username": "user1",
+      "message": "hi",
+      "timestamp": "2025-07-01T20:57:52.984Z"
+    },
+    {
+      "id": "1751404892166",
+      "username": "user1",
+      "message": "hola",
+      "timestamp": "2025-07-01T21:21:32.166Z"
+    },
+    {
+      "id": 1751405630226,
+      "username": "user1",
+      "message": "hola",
+      "timestamp": "2025-07-01T21:33:50.226Z"
+    }
+  ]
+}

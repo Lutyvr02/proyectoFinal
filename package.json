@@ -1,0 +1,49 @@
+{
+  "name": "proyectofinal",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "json-server": "json-server --watch db.json --port 3001",
+    "sse-server": "node server/index.js",
+    "start": "concurrently \"npm run json-server\" \"npm run sse-server\" \"npm run dev\""
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.4",
+    "@mui/lab": "^5.0.0-alpha.160",
+    "@mui/material": "^5.15.4",
+    "axios": "^1.6.5",
+    "formik": "^2.4.5",
+    "i18next": "^23.7.16",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-i18next": "^14.0.5",
+    "react-router-dom": "^6.21.3",
+    "yup": "^1.4.0",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@types/node": "^24.0.9",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react-swc": "^3.10.2",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "eslint": "^9.29.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "express": "^4.18.2",
+    "globals": "^16.2.0",
+    "json-server": "^1.0.0-alpha.21",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.34.1",
+    "vite": "^7.0.0"
+  }
+}
